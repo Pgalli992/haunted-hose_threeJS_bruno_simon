@@ -55,26 +55,26 @@ floorDisplacementTexture.wrapT = THREE.RepeatWrapping;
 
 // Wall
 const wallColorTexture = textureLoader.load(
-  "./wall/plaster_brick_01_1k/plaster_brick_01_diff_1k.jpg"
+  "./wall/plaster_brick_01_1k/plaster_brick_01_diff_1k.webp"
 );
 const wallARMTexture = textureLoader.load(
-  "./wall/plaster_brick_01_1k/plaster_brick_01_arm_1k.jpg"
+  "./wall/plaster_brick_01_1k/plaster_brick_01_arm_1k.webp"
 );
 const wallNormalTexture = textureLoader.load(
-  "./wall/plaster_brick_01_1k/plaster_brick_01_nor_gl_1k.jpg"
+  "./wall/plaster_brick_01_1k/plaster_brick_01_nor_gl_1k.webp"
 );
 
 wallColorTexture.colorSpace = THREE.SRGBColorSpace;
 
 // Roof
 const roofColorTexture = textureLoader.load(
-  "./roof/roof_07_1k/roof_07_diff_1k.jpg"
+  "./roof/roof_07_1k/roof_07_diff_1k.webp"
 );
 const roofARMTexture = textureLoader.load(
-  "./roof/roof_07_1k/roof_07_arm_1k.jpg"
+  "./roof/roof_07_1k/roof_07_arm_1k.webp"
 );
 const roofNormalTexture = textureLoader.load(
-  "./roof/roof_07_1k/roof_07_nor_gl_1k.jpg"
+  "./roof/roof_07_1k/roof_07_nor_gl_1k.webp"
 );
 
 roofColorTexture.colorSpace = THREE.SRGBColorSpace;
@@ -434,7 +434,7 @@ sky.material.uniforms["mieDirectionalG"].value = 0.95;
 sky.material.uniforms["sunPosition"].value.set(0.3, -0.038, -0.95);
 
 /**
- * Sky
+ * Fog
  */
 
 // scene.fog = new THREE.Fog("#02343f", 1, 13);
